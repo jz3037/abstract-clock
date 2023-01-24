@@ -88,7 +88,7 @@ class Particle_s{
   
   function draw() {
 	  background('#F8CB2E');
-	  window.print(minute())
+	  window.print(minute());
 	
 	  for(let i = 0;i<second();i++) {
 		particles_s[i].createParticle_s();
